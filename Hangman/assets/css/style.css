@@ -48,9 +48,9 @@
 }
 #drawing-display{
     height:100%;
-    background-size: 700px;
+    background-size: 250px;
     background-repeat: no-repeat;
-    margin-left: 30%;
+    margin-left: 43%;
 }
 #wrong{
     margin: 0 auto;
@@ -94,7 +94,7 @@
 }
 #check-button-2-loose{
     position: absolute;
-    top:200px;
+    top:30px;
     left: 966px;
     height: 50px;
 }

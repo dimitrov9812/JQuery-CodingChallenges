@@ -1,0 +1,137 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url("/assets/fonts/DS-DIGIT.TTF");
+}
+.container{
+    position: absolute;
+    border: 1px solid black;
+    padding:30px;
+    top:60%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.info{
+    font-family: myFirstFont;
+    font-size: 80px;
+}
+.text{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+tr{
+    margin: 10px;
+}
+.days,.hours,.minutes,.seconds{
+    padding: 20px;
+}
+.days{
+    color:black;
+    border-right: 4px solid black;
+}
+.hours{
+    color:black;
+    border-right: 6px solid black;
+}
+.minutes{
+    color:black;
+    border-right: 8px solid black;
+}
+.seconds{
+    color:red;
+    border-right: 10px solid red;
+}
+.day,.hour,.minute,.second{
+    padding: 20px;
+}
+.menu{
+    border:1px solid black;
+    height: 200px;
+    width: 60%;
+    margin: 0 auto;
+    margin-top:2%;
+    display: flex;
+}
+.button-space{
+    border-left: 5px double #000000;
+    border-right:5px double red;
+    height: 100px;
+    width: 20%;
+    margin: 0 auto;
+    margin-top:1.2%;
+}
+.left-decoration{
+    position: absolute;
+    border-top: 5px double black;
+    border-bottom: 5px double black;
+    width: 15%;
+    height: 150px;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+.right-decoration{
+    position: absolute;
+    border-top: 5px double black;
+    border-bottom: 5px double black;
+    width: 15%;
+    height: 150px;
+    margin-right: 2%;
+    top: 65px;
+    left: 1560px;
+}
+.left-menu-side{
+    border-right: 3px dotted black;
+    width: 48%;
+    margin:1%;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+} 
+.right-menu-side{
+    border-left: 3px dotted red;
+    width: 48%;
+    margin:1%;
+    height: 175px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+} 
+.item{
+    margin:1%;
+    width: 97%;
+    height: 45px;
+}
+.day{
+    margin:1%;
+    width: 23%;
+    height: 32px;
+}
+.input{
+    width: 20%;
+    text-align: center;
+    color:red;
+}
+.image{
+    width:50px;
+    height:50px;
+    margin-left: 30%;
+}
+#city{
+    position: absolute;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 60px;
+    left:770px;
+    color: red;
+}
+
+#left-instruction{
+    position: absolute;
+    top:40px;
+}
+#right-instruction{
+    position: absolute;
+    top:40px;
+    left:55px;
+    color:red;
+}

@@ -166,7 +166,7 @@ function draw(wrong){
             break;
         case 6:
             $("#d3").css('visibility','visible');
-            $("#drawing-display").css('backgroundImage','url(assets/images/rightLeg.png)');
+            $("#drawing-display").css('backgroundImage','url(assets/images/leftLeg.png)');
             dead();
             break;
     }

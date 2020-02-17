@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script
+			  src="https://code.jquery.com/jquery-3.4.1.js"
+			  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+              crossorigin="anonymous">
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="left-decoration">
+        <h3 id="left-instruction">Choose a specific date =></h3>
+    </div>
+    <div class="menu">
+        <div class="left-menu-side">
+            <div class="item">
+                <input type="text" placeholder="DD" class="input" id="day-input"> /
+                <input type="text" placeholder="MM" class="input" id="month-input"> /
+                <input type="text" placeholder="YYYY" class="input" id="year-input">
+            </div>
+            <div class="item">
+                <input type="text" placeholder="hh" class="input" id="hour-input"> :
+                <input type="text" placeholder="mm" class="input" id="minute-input"> :
+                <input type="text" placeholder="ss" class="input" id="seconds-input">
+            </div>
+            <div class="item">
+                <input type="text" placeholder="city" class="input" id="location"> 
+                <button id="start-button" class="start">START</button>
+            </div>
+        </div>
+        <div class="right-menu-side">
+            <div class="day" id="heart-image">
+                <img class="image"  id="heart-action"src="assets/images/heart.png">
+            </div>
+            <div class="day" id="santa-image">
+                <img class="image" id="santa-action" src="assets/images/santa.png">
+            </div>
+            <div class="day" id="ghost-image">
+                <img class="image" id="ghost-action" src="assets/images/ghost.png">
+            </div>
+            <div class="day">
+                <img class="image" id="new-year-action" src="assets/images/newyear.png">
+            </div>
+            <div class="day">
+                <img class="image" id="turkey-action" src="assets/images/turkey.png">
+            </div>
+            <div class="day">
+                <img class="image" id="egg-action" src="assets/images/egg.png">
+            </div>
+        </div>
+    </div>
+    <div class="right-decoration">
+        <h3 id="right-instruction"><=Choose a specific holiday</h3>
+    </div>
+    <div class="button-space">
+       <span id="city"></span>
+    </div>
+    <table class="container">
+        <tr class="info">
+            <td class="days" id="days">00</td>
+            <td class="hours">00</td>
+            <td class="minutes">00</td>
+            <td class="seconds">00</td>
+        </tr>
+        <tr class="text">
+            <td class="day">days</td>
+            <td class="hour">hours</td>
+            <td class="minute">minutes</td>
+            <td class="second">seconds</td>
+        </tr>
+    </table>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
