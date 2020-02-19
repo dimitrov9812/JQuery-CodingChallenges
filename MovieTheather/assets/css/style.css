@@ -1,6 +1,10 @@
+body{
+    background-color: rgba(32, 32, 32, 0.925);
+    color:white;
+}
 .wrap{
     margin: 0 auto;
-    margin-top: 2%;
+    margin-top: 1%;
     width:50%;
     height: 90vh;
     display: flex;
@@ -10,79 +14,234 @@
     margin:0 auto;
     margin-top: 5%;
     height: 10%;
-    width: 80%;
-    border: 1px solid black;
+    width: 60%;
     display: flex;
     flex-direction: row;
 }
 #pick-text{
-    margin-left:20%;
-    font-size: 30px;
-}
-#select{
-    margin-left: 3%;
-    width: 35%;
-    height: 50%;
-    margin-top: 4%;
+    margin-left:6%;
+    font-size: 4vw;
+    font-size: 4vh;
+    margin-top: 7%;
+    font-variant-caps: all-small-caps;
+
 }
 #legend{
     margin:0 auto;
     margin-top: 5%;
-    height: 10%;
+    height: 5%;
     width: 60%;
-    border: 1px solid black;
     display: flex;
     flex-direction: row;
 }
 #left-image,#middle-image,#right-image{
-    border: 1px solid black;
-    width: 26%;
-    margin-left: 5%;
+    width: 31.5%;
+    margin-left: 10%;
     height: 80%;
-    margin-top:1%
+    margin-top:2%;
+    display: flex;
 }
-
+#legend-text-1{
+    margin-top: 8%;
+    margin-left: 10%;
+    color:grey
+}
+#legend-text-2{
+    margin-top: 8%;
+    margin-left: 10%;
+    color:grey;
+}
+#legend-text-3{
+    margin-top: 8%;
+    margin-left: 10%;
+    color:grey
+}
 #seats{
     margin:0 auto;
     margin-top: 5%;
     height: 60%;
     width: 70%;
-    border: 1px solid black;
 }
 #checkout-info{
     margin:0 auto;
     margin-top: 2%;
     height: 10%;
     width: 80%;
-    border: 1px solid black;
 }
 #checkout-text-field{
     width:95%;
     margin: 0 auto;
-    border: 1px solid black;
     height:80%;
     margin-top:1%;
     text-align: center;
     font-size: 30px;
 }
 #screen{
+    background-color: wheat;
     width:100%;
     margin:0 auto;
-    border: 1px solid black;
-    height: 28%;
+    height: 10%;
+    margin-bottom: 12%;
     margin-top:1.5%;
     text-align: center;
+    -webkit-box-shadow: 0px 3px 25px 11px rgba(179,179,179,1);
+    -moz-box-shadow: 0px 3px 25px 11px rgba(179,179,179,1);
+    box-shadow: 0px 3px 25px 11px rgba(179,179,179,1);
 }
 .row{
-    border:1px solid black;
-    height: 10%;
+    height: 12%;
     margin: 0.5%;
     display: flex;
     flex-direction: row;
     text-align: center;
 }   
 .cell{
-    border:1px solid red;
     width:10%;
+}
+#freeSeat,#selectedSeat{
+    width: 30%;
+    height: 90%;
+    border-radius: 200px 200px 10px 10px;
+    -moz-border-radius: 200px 200px 10px 10px;
+    -webkit-border-radius: 200px 200px 10px 10px;
+    border: 0px solid #000000;
+}
+#occupied-Seat{
+    width: 30%;
+    height: 90%;
+    border-radius: 200px 200px 10px 10px;
+    -moz-border-radius: 200px 200px 10px 10px;
+    -webkit-border-radius: 200px 200px 10px 10px;
+    border: 0px solid #000000;
+}
 
+#freeSeat{
+    background-color: rgba(22, 22, 22, 0.849);
+}
+#occupiedSeat{
+    border-radius: 200px 200px 10px 10px;
+    -moz-border-radius: 200px 200px 10px 10px;
+    -webkit-border-radius: 200px 200px 10px 10px;
+    border: 0px solid #000000;
+    width: 60%;
+    height: 60%;
+    background-color: lightgray;
+}
+#occupiedSeat:hover{
+    width: 60%;
+    height: 60%;
+    background-color: rgb(255, 255, 255);
+}
+#selectedSeat{
+    background-color: rgb(168, 19, 255);
+}
+
+.seat-button{
+    background-color: rgba(22, 22, 22, 0.849);
+    width: 60%;
+    height: 60%;
+    border-radius: 200px 200px 10px 10px;
+    -moz-border-radius: 200px 200px 10px 10px;
+    -webkit-border-radius: 200px 200px 10px 10px;
+    border: 0px solid #000000;
+}
+.seat-button:hover{
+    background-color: rgba(43, 43, 43, 0.5);
+    width: 60%;
+    height: 60%;
+    border-radius: 200px 200px 10px 10px;
+    -moz-border-radius: 200px 200px 10px 10px;
+    -webkit-border-radius: 200px 200px 10px 10px;
+    text-decoration: none;
+}
+.reservedSeat{
+    background-color:rgb(168, 19, 255);
+    width: 60%;
+    height: 60%;
+    border-radius: 200px 200px 10px 10px;
+    -moz-border-radius: 200px 200px 10px 10px;
+    -webkit-border-radius: 200px 200px 10px 10px;
+    border: 0px solid #000000;
+}
+.reservedSeat:hover{
+    background-color: rgb(168, 19, 255,0.5);
+    width: 60%;
+    height: 60%;
+    border-radius: 200px 200px 10px 10px;
+    -moz-border-radius: 200px 200px 10px 10px;
+    -webkit-border-radius: 200px 200px 10px 10px;
+    text-decoration: none;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+    background: #e4f1fd;
+    background-image: none;
+    color:black;
+  }
+  /* Remove IE arrow */
+  select::-ms-expand {
+    display: none;
+  }
+  #select{
+      margin-top:8%;
+      margin-left: 2%;
+      height: 50%;
+      color:black;
+      font-weight: bold;
+  }
+  /* Custom Select */
+  .select {
+    position: relative;
+    display: flex;
+    height: 25%;
+    line-height: 3;
+    background: #2c3e50;
+    overflow: hidden;
+    border-radius: .25em;
+  }
+  select {
+    flex: 1;
+    padding: 0 .5em;
+    color: #fff;
+    cursor: pointer;
+  }
+  /* Arrow */
+  .select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 1em;
+    background: #34495e;
+    cursor: pointer;
+    pointer-events: none;
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+  }
+  /* Transition */
+  .select:hover::after {
+    color: #f39c12;
+  }
+  
+  #number-of-seats{
+      font-size:40px;
+      font-weight: bold;
+      color: rgb(168, 19, 255);
+  }
+  #price{
+    font-size:40px;
+    font-weight: bold;
+    color: rgb(168, 19, 255);
+}
+p{
+    font-size: 2vh;
+    font-size: 2vw;
 }
