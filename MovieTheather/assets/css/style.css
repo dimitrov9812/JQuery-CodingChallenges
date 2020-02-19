@@ -1,0 +1,88 @@
+.wrap{
+    margin: 0 auto;
+    margin-top: 2%;
+    width:50%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+#heading{
+    margin:0 auto;
+    margin-top: 5%;
+    height: 10%;
+    width: 80%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+#pick-text{
+    margin-left:20%;
+    font-size: 30px;
+}
+#select{
+    margin-left: 3%;
+    width: 35%;
+    height: 50%;
+    margin-top: 4%;
+}
+#legend{
+    margin:0 auto;
+    margin-top: 5%;
+    height: 10%;
+    width: 60%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+#left-image,#middle-image,#right-image{
+    border: 1px solid black;
+    width: 26%;
+    margin-left: 5%;
+    height: 80%;
+    margin-top:1%
+}
+
+#seats{
+    margin:0 auto;
+    margin-top: 5%;
+    height: 60%;
+    width: 70%;
+    border: 1px solid black;
+}
+#checkout-info{
+    margin:0 auto;
+    margin-top: 2%;
+    height: 10%;
+    width: 80%;
+    border: 1px solid black;
+}
+#checkout-text-field{
+    width:95%;
+    margin: 0 auto;
+    border: 1px solid black;
+    height:80%;
+    margin-top:1%;
+    text-align: center;
+    font-size: 30px;
+}
+#screen{
+    width:100%;
+    margin:0 auto;
+    border: 1px solid black;
+    height: 28%;
+    margin-top:1.5%;
+    text-align: center;
+}
+.row{
+    border:1px solid black;
+    height: 10%;
+    margin: 0.5%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}   
+.cell{
+    border:1px solid red;
+    width:10%;
+
+}

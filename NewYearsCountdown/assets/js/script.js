@@ -183,7 +183,7 @@ $("#start-button").click(function start() {
     var monthString;
     var getDay = $("#day-input").val();
     console.log(getDay)
-    var getMonth =$("#day-input").val();
+    var getMonth =$("#month-input").val();
     switch(getMonth){
         case 1:
             monthString="January";
