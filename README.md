@@ -20,14 +20,14 @@
  -I have the same problem as with the Hangman but this time it doesn't load the font and i am working on a solution.<br/>
  
   <h2>MovieTheatre</h2>
-   -This is application that uses movie API and lets the user pick a movie and see information about it and also reserve a seat
-   -First i hardcoded the movie choices.
-   -The seats update every time a new movie is selected and also the price is being changed.
-   -When you select a seat it turns purple and you can deselect it.
-   -Later i decided that a person should be able to search for a movie that is not available  and also see the same information about it.
-   -After making the app i got a way better understanging of how work with API is done.
-   -Also improved my JQuery knowledge.
-   -Soon i can update the looks of the website.
+   -This is application that uses movie API and lets the user pick a movie and see information about it and also reserve a seat.<br/>
+   -First i hardcoded the movie choices.<br/>
+   -The seats update every time a new movie is selected and also the price is being changed.<br/>
+   -When you select a seat it turns purple and you can deselect it.<br/>
+   -Later i decided that a person should be able to search for a movie that is not available  and also see the same information about it.<br/>
+   -After making the app i got a way better understanging of how work with API is done.<br/>
+   -Also improved my JQuery knowledge.<br/>
+   -Soon i can update the looks of the website.<br/>
  
  
  
