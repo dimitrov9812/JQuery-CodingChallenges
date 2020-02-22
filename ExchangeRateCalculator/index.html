@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script
+			  src="https://code.jquery.com/jquery-3.4.1.js"
+			  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+              crossorigin="anonymous">
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="wrap">
+        <div id="logo">
+
+        </div>
+        <div id="text">
+            <div id="text-one">
+                <h3>
+                    Exchange Rate Calculator
+                </h3>
+            </div>
+            <div id="text-two">
+                <h4>Choose the currency and the amounts to get the exchange rate</h4>
+            </div>
+        </div>
+        <hr>
+        <div id="calculator-field">
+            <div id="row-one">
+                <div id="select-top-field">
+                    <select id="select-top">
+                        <option id="opt-top-1">
+                            <span class="option" selected>BGN</span>
+                        </option>
+                        <option id="opt-top-2">
+                            <span class="option">CZK</span>
+                        </option>
+                        <option id="opt-top-3">
+                            <span class="option">CAD</span>
+                        </option>
+                        <option id="opt-top-4">
+                            <span class="option">AUD</span>
+                        </option>
+                        <option id="opt-top-5">
+                            <span class="option">BRL</span>
+                        </option>
+                        <option id="opt-top-6">
+                            <span class="option">RUB</span>
+                        </option>
+                        <option id="opt-top-7">
+                            <span class="option">JPY</span>
+                        </option>
+                        <option id="opt-top-8">
+                            <span class="option">CHF</span>
+                        </option>
+                        <option id="opt-top-9">
+                            <span class="option">PLN</span>
+                        </option>
+                        <option id="opt-top-10">
+                            <span class="option">TRY</span>
+                        </option>
+                        <option id="opt-top-11">
+                            <span class="option">NZD</span>
+                        </option>
+                        <option id="opt-top-12">
+                            <span class="option">USD</span>
+                        </option>
+                        <option id="opt-top-13">
+                            <span class="option">GBP</span>
+                        </option>
+                    </select>
+                </div>
+                
+                <div id="display-qty">
+                    <input id="display-qty-text" type="text" value="1.00">
+                </div>
+            </div>
+            <div id="row-two">
+                <div id="swap-butt-field">
+                    <button id="swap-butt">SWAP</button>
+                </div>
+                <div id="display-formula">
+                    <span id="value-qty">0</span>(<span id="first-value"></span>) = <span id="result">0</span>(<span id="second-value"></span>)
+                </div>
+            </div>
+                <div id="row-three">
+                    <div id="select-bottom-div">
+                        <select id="select-bottom">
+                            <option id="opt-top-1">
+                                <span class="option">BGN</span>
+                            </option>
+                            <option id="opt-top-2">
+                                <span class="option">CZK</span>
+                            </option>
+                            <option id="opt-top-3">
+                                <span class="option">CAD</span>
+                            </option>
+                            <option id="opt-top-4">
+                                <span class="option">AUD</span>
+                            </option>
+                            <option id="opt-top-5">
+                                <span class="option">BRL</span>
+                            </option>
+                            <option id="opt-top-6">
+                                <span class="option">RUB</span>
+                            </option>
+                            <option id="opt-top-7">
+                                <span class="option">JPY</span>
+                            </option>
+                            <option id="opt-top-8">
+                                <span class="option">CHF</span>
+                            </option>
+                            <option id="opt-top-9">
+                                <span class="option">PLN</span>
+                            </option>
+                            <option id="opt-top-10">
+                                <span class="option">TRY</span>
+                            </option>
+                            <option id="opt-top-11">
+                                <span class="option">NZD</span>
+                            </option>
+                            <option id="opt-top-12">
+                                <span class="option" selected>USD</span>
+                            </option>
+                            <option id="opt-top-13">
+                                <span class="option">GBP</span>
+                            </option>
+                        </select>
+                    </div>
+                    <div id="display-result">
+                        <span id="result-text">0</span>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

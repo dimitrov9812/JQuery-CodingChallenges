@@ -1,0 +1,146 @@
+#wrap{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 7%;
+    height:70vh;
+    padding: 2%;
+    -webkit-box-shadow: 0px 0px 26px 0px rgba(82,45,100,1);
+-moz-box-shadow: 0px 0px 26px 0px rgba(82,45,100,1);
+box-shadow: 0px 0px 26px 0px rgba(82,45,100,1);
+}
+#logo{
+    height: 30%;
+    margin:0 auto;
+    width: 22%;
+    background-image: url("../images/gear.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#text{
+    height: 20%;
+    text-align: center;
+}
+#text-one{
+    height: 40%;
+    width: 80%;
+    margin: 0 auto;
+}
+#text-two{
+    height: 40%;
+    width: 80%;
+    margin: 0 auto;
+}
+#calculator-field{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: 43%;
+    margin-top: 5%;
+}
+#row-one{
+    display: flex;
+    flex-direction: row;
+    height: 39%;
+    margin-bottom: 3%;
+}
+#display-qty{
+    width: 50%;
+    text-align: right;
+}
+#display-qty-text{
+    border: 1px solid white;
+    width: 65%;
+    margin-top: 4%;
+    height: 4vh;
+    text-align: right;
+    font-size: 4vh;
+}
+#select-top-field{
+    width: 50%;
+    text-align: left;
+}
+  
+button{
+    background-color: #d273ff;
+    color: white;
+    padding: 2%;
+    width: 20%;
+    border: none;
+    font-size: 2vh;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+}
+select{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.8);
+    padding: 2%;
+    width: 20%;
+    height: 60%;
+    border: 1px solid grey;
+    margin-top: 4%;
+    font-size: 1.5vh;
+}
+#row-two{
+    display: flex;
+    flex-direction: row;
+    height: 20%;
+    margin-bottom: 3%;
+}
+#swap-butt-field{
+    width: 50%;
+    text-align: left;
+}
+#display-formula{
+    width: 50%;
+    text-align: right;
+}
+#row-three{
+    display: flex;
+    flex-direction: row;
+    height: 39%;
+}
+#select-bottom-div{
+    width: 50%;
+    text-align: left;
+}
+#display-result{
+    width: 50%;
+    text-align: right;
+}
+h3{
+    color: #d273ff;
+    font-size: 3vh;
+    margin-top: 1%;
+}
+h4{
+    margin-top: 1%;
+    font-size: 2vh;
+}
+#display-qty-text{
+    font-size: 6vh;
+    color: rgba(0, 0, 0, 0.7);
+}
+#value-qty,#result{
+    color:#d273ff;
+}
+#second-value,#first-value{
+    color:black;
+}
+#result-text{
+    font-size: 6vh;
+    color: rgba(0, 0, 0, 0.7);
+}
+#display-formula{
+    margin-top: 1%;
+    font-size: 1.8vh;
+}
+hr{
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    width: 90%;
+}
+select,button,input,text{
+    cursor: pointer;
+}
