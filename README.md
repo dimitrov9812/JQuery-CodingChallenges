@@ -19,7 +19,7 @@
   -Valentine's day.<br/>
  -I have the same problem as with the Hangman but this time it doesn't load the font and i am working on a solution.<br/>
  
-  <h2>MovieTheatre</h2>\
+  <h2>MovieTheatre</h2>
    -This is application that uses movie API and lets the user pick a movie and see information about it and also reserve a seat
    -First i hardcoded the movie choices.
    -The seats update every time a new movie is selected and also the price is being changed.
