@@ -1,0 +1,161 @@
+body{
+    background-color: rgba(128, 128, 128, 0.2);
+}
+#wrap{
+    width: 25%;
+    margin: 0 auto;
+    height: 80vh;
+    margin-top: 6%;
+}
+#image{
+    background-color: white;
+    background-image: url("../images/nature-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    height: 35%;
+    border-top-right-radius: 25%;
+    border-top-left-radius:25%;
+    display: flex;
+    flex-direction: column;
+}
+#change-background{
+    text-align: right;
+    height: 30%;
+    margin-bottom:18%;
+    width: 10%;
+    float: right;
+    margin-top: 7%;
+    margin-left: 85%;
+}
+#task-field{
+    background-color: white;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+}
+#add-task-field{
+    background-color: white;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+}
+#add-button{
+    width: 20%;
+}
+#butt-text{
+    margin-left:9%;
+    margin-top:5%;
+    width: 80%;
+    height: 80%;
+}
+#butt-text {
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background:linear-gradient(to bottom, rgba(188, 89, 238, 0.253) 5%, rgba(188, 89, 238, 0.253)100%);
+	background-color:rgba(96, 15, 136, 0.253); 
+	border-radius:5%;
+	border:1px solid rgba(188, 89, 238, 0.253); 
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:5vh;
+    font-weight:bold;
+    padding-bottom: 50%;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #528ecc;
+    animation-name: restoreRadius;
+    animation-duration: 1.2s;
+}
+#butt-text:hover {
+	background:linear-gradient(to bottom, rgba(188, 89, 238, 0.9) 5%, rgba(188, 89, 238, 0.8) 100%);
+    background-color:rgb(82, 45, 100,0.8); 
+    animation-name: radius;
+    animation-duration: 1.2s;
+    border-radius: 50%;
+}
+@keyframes radius {
+    from {border-radius: 5%;}
+    to { border-radius: 50%;}
+  }
+  @keyframes restoreRadius {
+    from {border-radius: 50%;}
+    to { border-radius: 5%;}
+  }
+#butt-text:active {
+	position:relative;
+	top:1px;
+}
+
+#add-text{
+    width: 80%;
+}
+#text{
+    width: 90%;
+    height: 75%;
+    margin-left: 5%;
+    margin-top: 1%;
+    font-size: 5vh;
+    font-variant-caps: all-small-caps;
+}
+.task{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+}
+.check-div{
+    width: 10%;
+}
+.checkbox{
+    width: 90%;
+    height: 80%;
+    margin: 6%;
+    border-radius: 50%;
+}
+.text-div{
+    width: 80%;
+}
+.delete-button-div{
+    width: 10%; 
+    background-image: url("../images/thrash.png");
+    background-size: 3.6vh;
+    margin-top: 1%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    
+}
+.delete-button{
+    width: 90%;
+    height: 90%;
+    margin: 3%;
+}
+.task-text{
+    height: 100%;
+    font-size: 3.8vh;
+    margin-top:-1%;
+    width: 80;
+    margin-left:2%;
+    font-variant-caps: all-small-caps;
+}
+.scratched-text{
+    font-size: 3.8vh;
+    margin-top:-1%;
+    width: 80;
+    font-variant-caps: all-small-caps;
+    text-decoration: line-through;
+}
+#date{
+    font-size: 2.3vh;
+    height: 20%;
+    width: 80%;
+    margin-left: 2%;
+    color: white;
+    font-weight: bolder;
+    color: #FFFFFF;
+    text-shadow: 4px 3px 0 rgb(0, 0, 0);
+}
+img{
+    width: 5vh;
+}
