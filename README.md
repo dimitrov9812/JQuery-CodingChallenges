@@ -36,4 +36,11 @@
  -Then calculates it and return the value of the currency pair<br/>
  -You have a swap button for a faster change between the two currencies selected instead of going trough the select options again<br/>
  
+ <h2>ToDo APP</h2>
+ -A simple to do app built with JQuery.<br/>
+ -It gets the user input and adds it as a task.<br/>
+ -The task has two options after being added- remove it completely from the list or mark it as complete.<br/>
+ -The maximum number of tasks we can have is 10.<br/>
+ -On the top we have a nice nature background with the current day name,date,month and the opportunity to change the background if needed.<br/>
+ 
  
