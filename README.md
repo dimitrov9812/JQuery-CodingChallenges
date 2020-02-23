@@ -30,4 +30,10 @@
    -Soon i can update the looks of the website.<br/>
  
  
+<h2>ExchangeRateCalculator</h2>
+ -This app uses API of exchange rates<br/>
+ -It gets the desired currency and the desired amount<br/>
+ -Then calculates it and return the value of the currency pair<br/>
+ -You have a swap button for a faster change between the two currencies selected instead of going trough the select options again<br/>
+ 
  
